@@ -1,0 +1,46 @@
+body {
+    background-color: #1a1a1a;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 180px;
+    border-radius: 5px;
+}
+
+#temporizador {
+    font-size: 50px;
+}
+
+.grupo-botoes {
+    padding: 20px;
+}
+
+button.btn-iniciar{
+    background-color: green;
+}
+
+button.btn-pausar{
+    background-color: brown;
+}
+
+button.btn-zerar{
+    background-color: orange;
+}
+
+button {
+    width: 75px;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+button:hover{
+   background-color: #1a1a1a; 
+   color: #fff;
+}
